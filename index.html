@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#08090d">
+  <meta name="description" content="Meet ARK Browser — a private, focused browsing experience built for your everyday web.">
+  <title>ARK Browser — Browse beyond</title>
+  <link rel="icon" href="assets/ark.ico" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="site-header wrap">
+    <a class="brand" href="#" aria-label="ARK Browser home">
+      <img src="assets/ark.ico" alt="" width="38" height="38">
+      <span>ARK<span class="brand-light"> Browser</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Main navigation">
+      <a href="#features">Features</a><a href="#about">About</a>
+      <a class="nav-download" href="#download">Download <span aria-hidden="true">↗</span></a>
+    </nav>
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+  </header>
+
+  <main>
+    <section class="hero wrap">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot"></span> A fresh way to browse</div>
+        <h1>Your web.<br><span class="gradient-text">Your territory.</span></h1>
+        <p class="hero-subtitle">Meet ARK Browser — a clean, focused browsing experience built to make the web feel like yours.</p>
+        <div class="hero-actions" id="download">
+          <!-- Replace this URL with your actual GitHub Release asset URL before publishing. -->
+          <a class="button button-primary" id="download-button" href="https://github.com/YOUR-USERNAME/ark-browser/releases/latest/download/ARK-Setup.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4"/></svg>
+            Download for Windows
+          </a>
+          <span class="platform-note">Windows installer <span aria-hidden="true">·</span> .exe</span>
+        </div>
+        <p class="release-note">Get the latest ARK release. Always download from the official release page.</p>
+      </div>
+
+      <div class="browser-art" aria-label="Illustration of the ARK browser window">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="browser-window">
+          <div class="window-top">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <div class="address-bar"><span class="lock">⌑</span> Search or enter address</div>
+            <span class="window-menu">···</span>
+          </div>
+          <div class="window-body">
+            <div class="mini-mark"><img src="assets/ark.ico" alt=""></div>
+            <div class="mock-title">Explore without limits.</div>
+            <div class="mock-subtitle">The web is yours to discover.</div>
+            <div class="mock-search"><span>⌕</span> Search the web</div>
+            <div class="quick-links"><span>✦</span><span>◈</span><span>⌘</span><span>＋</span></div>
+          </div>
+        </div>
+        <div class="floating-chip chip-top"><span class="chip-icon">✦</span><span><b>Made for focus</b><small>Your web, your way</small></span></div>
+        <div class="floating-chip chip-bottom"><span class="chip-icon shield">◇</span><span><b>Take control</b><small>Browse on your terms</small></span></div>
+      </div>
+      <a class="scroll-cue" href="#features"><span></span> Discover ARK</a>
+    </section>
+
+    <section class="feature-section wrap" id="features">
+      <div class="section-heading">
+        <div class="eyebrow">BUILT AROUND YOU</div>
+        <h2>Less noise.<br><span class="muted-heading">More internet.</span></h2>
+        <p>Thoughtful design for the everyday things you do online.</p>
+      </div>
+      <div class="feature-grid">
+        <article class="feature-card"><div class="feature-icon violet">◈</div><h3>A focused experience</h3><p>A clean interface that keeps the browsing experience at the center.</p><span class="card-index">01 / EXPERIENCE</span></article>
+        <article class="feature-card"><div class="feature-icon blue">⌘</div><h3>Made for your workflow</h3><p>Move between your favorite websites and everyday tasks with ease.</p><span class="card-index">02 / WORKFLOW</span></article>
+        <article class="feature-card"><div class="feature-icon mint">◇</div><h3>Your browser, your choice</h3><p>Explore the web in a browser built around your vision for ARK.</p><span class="card-index">03 / CONTROL</span></article>
+      </div>
+      <p class="feature-disclaimer">Feature descriptions should match what your current ARK build actually supports. Update these cards before launch if needed.</p>
+    </section>
+
+    <section class="download-section wrap" id="about">
+      <div class="download-panel">
+        <div class="download-copy">
+          <div class="eyebrow"><span class="status-dot"></span> YOUR NEXT BROWSER</div>
+          <h2>Ready to enter<br><span class="gradient-text">your ARK?</span></h2>
+          <p>Download ARK Browser for Windows and start exploring.</p>
+          <a class="button button-primary" href="https://github.com/YOUR-USERNAME/ark-browser/releases/latest/download/ARK-Setup.exe">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 16v4h14v-4"/></svg>
+            Get ARK for Windows
+          </a>
+          <div class="requirements">Windows 10/11 <span>·</span> Installer (.exe)</div>
+        </div>
+        <div class="download-symbol"><div class="symbol-ring ring-one"></div><div class="symbol-ring ring-two"></div><img src="assets/ark.ico" alt="ARK logo"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer wrap">
+    <a class="brand footer-brand" href="#"><img src="assets/ark.ico" alt="" width="30" height="30"><span>ARK<span class="brand-light"> Browser</span></span></a>
+    <span class="footer-note">Made with curiosity. Built for the web.</span>
+    <span class="copyright">© <span id="year"></span> ARK Browser</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
